@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body{
+    background-color: lightcoral; font-family: Arial; font-size: 20px;
+}
+h1{
+    color: rgb(116, 0, 0); background-color: rgb(245, 0, 94); font-size: 1.5em; text-align: left; text-decoration: underline;
+}
+h2{
+    color:rgb(126, 35, 73); background-color: rgb(245, 74, 126); font-size: 1.2em;text-align: left;
+}
+p{
+    text-align: justify;
+}
+div{
+   text-align: center; color:  rgb(245, 0, 94);
+}

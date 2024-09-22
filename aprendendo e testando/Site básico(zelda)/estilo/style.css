@@ -1,0 +1,361 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Hylian";
+    src: url(../fontes/botw.otf) format(opentype);
+}
+
+@font-face {
+    font-family: "triforce";
+    src: url(../fontes/TriForce.ttf) format(truetype);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1:#30478C;
+    --cor2:#77BDD9;
+    --cor3:#2983A6;
+    --cor4:#263F73;
+    --cor5:#141826;
+    --corlogo:#F2CE16;
+    --cor6:#C90611;
+}
+
+body{
+   background-color: var(--cor5);
+}
+
+header{
+    width: 100%;
+    background-image: linear-gradient(to bottom, var(--cor3) 2%, var(--cor4) 50%, var(--cor5));
+    border-bottom: 0px;
+}
+
+
+.logo{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+header h1{
+    font-family: "Hylian", cursive;
+    font-weight: normal;
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    margin: auto;
+}
+
+header p{
+    text-align: center;
+    color: var(--corlogo);
+    font-size: 3em;
+    padding: 0px 0px 20px 0px;
+    margin: -60px 0px 0px 0px;
+    font-family: "triforce",cursive;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.295);
+    -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.63);
+}
+
+nav{
+    display: block;
+    background-color: var(--cor5);
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+
+}
+
+nav a{
+    padding: 3px 15px 3px 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--corlogo);
+    border-radius: 8px;
+}
+
+nav a:hover{
+    background-color: var(--corlogo);
+    color: var(--cor5);
+}
+
+main{
+    background-color: white;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.336);
+    border-radius: 8px;
+}
+main h1{
+    font-family: 'Hylian', cursive;
+    color: var(--cor6);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.247);
+    font-size: 2.5em;
+    text-align: center;
+    -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.63);
+}
+
+main h2{
+    font-family: 'Hylian', cursive;
+    color: var(--cor6);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.247);
+    font-size: 2em;
+    -webkit-text-stroke-width: .1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.63);
+}
+
+main p{
+    text-align: justify;
+    font-size: 1.5em;
+    text-indent: 40px;
+}
+
+
+.logotriforce{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.mapa{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.botw{
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+}
+
+.twilight-foto{
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+}
+
+.ocarina{
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+}
+
+aside{
+    background-color: lightgray;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 4px 4px rgba(0, 0, 0, 0.308);
+}
+
+aside h2{
+    color: var(--corlogo);
+    background-color: var(--cor5);
+    text-align: center;
+    font-size: 3em;
+    border-radius: 5px 5px 0px 0px;
+}
+
+aside p{
+    font-weight: bold;
+    color: var(--cor5);
+
+}
+
+.linkico{
+    border: 5px solid var(--cor5);
+    border-radius: 50%;
+    background-image: radial-gradient(var(--cor2), var(--cor3), var(--cor4));
+    max-width: 240px;
+}
+
+
+#linkp p{
+    display: none;
+    text-align: justify;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+#linkp h1{
+    color: var(--corlogo);
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    margin: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #2983A6;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor2));
+    border-radius: 10px;
+    border: 5px solid var(--cor5);
+}
+
+table:hover #linkp h1{
+    display: none;
+    margin: auto;
+}
+
+table:hover #linkp p{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to right, var(--cor4), white);
+    border-radius: 10px;
+    border: 5px solid var(--cor5);
+}
+
+.zeldaico{
+    border: 5px solid var(--cor5);
+    border-radius: 50%;
+    background-image: radial-gradient(white, var(--corlogo));
+    max-width: 240px;
+}
+
+#zeldap p{
+    display: none;
+    text-align: justify;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+#zeldap h1{
+    width: 100%;
+    color: pink;
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: linear-gradient(to right, var(--corlogo), white);
+    border-radius: 10px;
+    border: 5px solid var(--cor5);
+}
+
+table:hover #zeldap p{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to right, var(--corlogo), white);
+    border-radius: 10px;
+    border: 5px solid var(--cor5);
+}
+
+table:hover #zeldap h1{
+    display: none;
+    margin: auto;
+}
+
+.ganonico{
+    border: 5px solid var(--cor5);
+    border-radius: 50%;
+    background-image: radial-gradient(to right, white, var(--cor6));
+    max-width: 240px;
+}
+
+
+#ganonp p{
+    display: none;
+    text-align: justify;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+#ganonp h1{
+    width: 100%;
+    color: #7C986B;
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-image: linear-gradient(to right, var(--cor6), white);
+    border-radius: 10px;
+    border: 5px solid var(--cor5);
+}
+
+table:hover #ganonp h1{
+    display: none;
+    margin: auto;
+}
+
+table:hover #ganonp p{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to right, var(--cor6), white);
+    border-radius: 10px;
+    border: 5px solid var(--cor5);
+}
+
+.eponaico{
+    border: 5px solid var(--cor5);
+    border-radius: 50%;
+    background-image: radial-gradient(white, rgb(255, 187, 110));
+    max-width: 240px;
+}
+
+
+#eponap p{
+    display: none;
+    text-align: justify;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+#eponap h1{
+    width: 100%;
+    color: burlywood;
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    margin: auto;
+    padding-left: 82.5px;
+    padding-right: 82.5px;
+    background-image: linear-gradient(to right, rgb(255, 187, 110), white);
+    border-radius: 10px;
+    border: 5px solid var(--cor5);
+}
+
+table:hover #eponap h1{
+    display: none;
+    margin: auto;
+}
+
+table:hover #eponap p{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to right,rgb(255, 187, 110), white);
+    border-radius: 10px;
+    border: 5px solid var(--cor5);
+}
+
+footer{
+    background-color:black;
+    width: 100%;
+    margin: 10px -10px 0px -10px;
+    text-align: center;
+    color: white;
+}

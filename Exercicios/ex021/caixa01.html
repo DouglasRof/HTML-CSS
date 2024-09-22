@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixa</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+           /* border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;*/
+            
+            border: 10px solid darkslategray;
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+
+            /* ao colocar apenas uma medida no padding/margin/outline ele aplica para todas direções essa medida! Ex.: pading: 10px;*/
+
+            /* ao colocar duas medidas (ex.:10px e 20px) eles se cruzam, ou seja: top e botton = 10px, rigt e left = 20px*/
+
+            padding: 10px 10px 10px 10px;
+
+            /*margin-top: 10px;
+            margin-right: auto;
+            margin-bottom: 10px;
+            margin-left: auto;*/
+
+            margin: 10px auto 40px auto;
+           
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: green;*/
+
+            outline: 5px dashed green;
+        }
+
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Box-Levels</h1>
+    <p>Paragrafos também são exemplos de box level, mas os <a href="#">Links</a> são exemplos de inline-level.</p>
+    
+</body>
+</html>
