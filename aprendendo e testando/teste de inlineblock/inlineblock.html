@@ -38,13 +38,17 @@
             background-color: white;  
             display: block;
             margin: auto;
+            position: relative;
         }
 
         #t1{
             max-height: 100px;
             max-width: 500px;
             border-radius: 50px;
-            display: inline-flexbox;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -180%);
         }
         #t1 h1{
             font-size: 3em;
@@ -52,11 +56,18 @@
         }
 
         #t2{
-            height: 100px;
-            width: 500px;
-            margin-bottom: 80px;
+            max-height: 100px;
+            max-width: 500px;
             border-radius: 50px;
-            
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, 100%);
+        }
+
+        #t2 h1{
+            font-size: 3em;
+            text-align: center;
         }
 
         #f1{
