@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Inline-Block</title>
+    <style>
+
+        header{
+            border: 2px solid darkgray;
+            background-color: white;
+            height: 200px;
+            margin: -10px -10px 10px -10px;
+            
+        }
+        header h1{
+            text-align: center;
+            padding-top: 20px;
+            font-size: 4em;
+        }
+
+        body{
+            background-color: lightgray;
+        }
+
+        div{
+            display: inline-block;
+            border: 3px solid black;
+            border-radius: 15px;
+            width: 240px;
+            height: 240px;
+            margin: 10px 10px;
+        }
+
+
+        main{
+            max-width: 800px;
+            background-color: white;  
+            display: block;
+            margin: auto;
+        }
+
+        #t1{
+            max-height: 100px;
+            max-width: 500px;
+            border-radius: 50px;
+            display: inline-flexbox;
+        }
+        #t1 h1{
+            font-size: 3em;
+            text-align: center;
+        }
+
+        #t2{
+            height: 100px;
+            width: 500px;
+            margin-bottom: 80px;
+            border-radius: 50px;
+            
+        }
+
+        #f1{
+            border-radius: 50%;
+            background-color: skyblue;
+        }
+
+        #f2{
+            border-radius: 50%;
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Teste</h1></header>
+    <main>
+        <p>Volto pra consertar quando descobrir como</p>
+
+        <div class="frame" id="f1"></div>
+        <div class="texto" id="t1">
+            <h1>Teste 1</h1>
+        </div>
+       <hr>
+        <div class="frame" id="f2"></div>
+        <div class="texto" id="t2">
+            <h1>Teste 2</h1>
+        </div>
+    </main> 
+
+    
+</body>
+</html>
