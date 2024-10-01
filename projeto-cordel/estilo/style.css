@@ -21,15 +21,15 @@ header{
 
 header h1{
     color: white;
-    font-family: "Passion One", sans-serif;
+    font-family: "Passion One", cursive;
     font-variant: small-caps;
-    font-size: 10vh;
+    font-size: 10vw;
     padding-top: 50px;
 }
 
 header p{
     color: white;
-    font-family: "Passion One", sans-serif;
+    font-family: "Passion One", cursive;
     font-size: 16px;
     padding-bottom: 50px;
     
@@ -49,6 +49,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
 }
 
 section.normal{
@@ -62,7 +64,8 @@ section.imagem{
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.185);
 }
 
